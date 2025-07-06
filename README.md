@@ -13,7 +13,7 @@
 
 <details> <summary>Grafana Web UI</summary>
 
-![web](https://github.com/biparasite/10-monitoring-03-grafana/blob/main/task_1.png"web")
+![web](https://github.com/biparasite/10-monitoring-03-grafana/blob/main/task_1.png "web")
 
 </details>
 
@@ -120,7 +120,7 @@ avg(node_load1) / count(count(node_cpu_seconds_total) by (cpu)) > 0.1
 ## Ответ
 
 <details> <summary>Json Dashboard</summary>
-```json
+```bash
 {
   "annotations": {
     "list": [
