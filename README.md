@@ -13,7 +13,7 @@
 
 <details> <summary>Grafana Web UI</summary>
 
-![web](https://github.com/biparasite/10-monitoring-03-systems/blob/main/task_1.jpg "web")
+![web](https://github.com/biparasite/10-monitoring-03-grafana/blob/main/task_1.png"web")
 
 </details>
 
@@ -80,7 +80,7 @@ avg(node_load15) / count(count(node_cpu_seconds_total) by (cpu))
 
 <details> <summary>Grafana dashboard</summary>
 
-![web](https://github.com/biparasite/10-monitoring-03-systems/blob/main/task_1.jpg "web")
+![web](https://github.com/biparasite/10-monitoring-03-grafana/blob/main/task_2.png "web")
 
 </details>
 
@@ -103,8 +103,8 @@ avg(node_load1) / count(count(node_cpu_seconds_total) by (cpu)) > 0.1
 
 <details> <summary>Grafana alert firing</summary>
 
-![firing](https://github.com/biparasite/10-monitoring-03-systems/blob/main/task_3.jpg "firing")
-![LA1](https://github.com/biparasite/10-monitoring-03-systems/blob/main/task_3.1.jpg "LA1")
+![firing](https://github.com/biparasite/10-monitoring-03-grafana/blob/main/task_3.png "firing")
+![LA1](https://github.com/biparasite/10-monitoring-03-grafana/blob/main/task_3.1.png "LA1")
 
 </details>
 
