@@ -120,7 +120,8 @@ avg(node_load1) / count(count(node_cpu_seconds_total) by (cpu)) > 0.1
 ## Ответ
 
 <details> <summary>Json Dashboard</summary>
-```bash
+
+```json
 {
   "annotations": {
     "list": [
